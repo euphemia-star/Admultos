@@ -1,0 +1,18 @@
+{
+	"name": "outputdataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlob01",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "output",
+				"container": "adfutorial"
+			}
+		}
+	}
+}
